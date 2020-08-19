@@ -1,0 +1,10 @@
+<a href='/'>Home</a>
+<a href='/history/'>History</a>
+
+
+{%for cowsay in cowsays%}
+    <div id='wrapper'>
+        <br>
+        {{ cowsay }}
+    </div>
+{% endfor %}
